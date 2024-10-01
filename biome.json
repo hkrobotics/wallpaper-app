@@ -1,48 +1,48 @@
 {
-  "$schema": "https://biomejs.dev/schemas/1.9.2/schema.json",
-  "formatter": {
-    "enabled": true,
-    "formatWithErrors": false,
-    "indentStyle": "tab",
-    "indentWidth": 2,
-    "lineEnding": "lf",
-    "lineWidth": 165,
-    "attributePosition": "auto"
-  },
-  "organizeImports": { "enabled": true },
-  "linter": {
-    "enabled": true,
-    "rules": {
-      "recommended": true,
-      "suspicious": { "noExplicitAny": "warn" },
-      "correctness": { "useExhaustiveDependencies": "warn" }
-    }
-  },
-  "javascript": {
-    "globals": [
-      "clearImmediate",
-      "queueMicrotask",
-      "Blob",
-      "Set",
-      "Promise",
-      "requestIdleCallback",
-      "setImmediate",
-      "requestAnimationFrame",
-      "File",
-      "Map",
-      "__DEV__",
-      "WebSocket"
-    ],
-    "formatter": {
-      "jsxQuoteStyle": "single",
-      "quoteProperties": "preserve",
-      "trailingCommas": "all",
-      "semicolons": "always",
-      "arrowParentheses": "asNeeded",
-      "bracketSpacing": true,
-      "bracketSameLine": false,
-      "quoteStyle": "single",
-      "attributePosition": "auto"
-    }
-  }
+	"$schema": "https://biomejs.dev/schemas/1.9.2/schema.json",
+	"formatter": {
+		"enabled": true,
+		"formatWithErrors": false,
+		"indentStyle": "tab",
+		"indentWidth": 2,
+		"lineEnding": "lf",
+		"lineWidth": 165,
+		"attributePosition": "auto"
+	},
+	"organizeImports": { "enabled": true },
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"recommended": true,
+			"suspicious": { "noExplicitAny": "warn" },
+			"correctness": { "useExhaustiveDependencies": "warn" }
+		}
+	},
+	"javascript": {
+		"globals": [
+			"clearImmediate",
+			"queueMicrotask",
+			"Blob",
+			"Set",
+			"Promise",
+			"requestIdleCallback",
+			"setImmediate",
+			"requestAnimationFrame",
+			"File",
+			"Map",
+			"__DEV__",
+			"WebSocket"
+		],
+		"formatter": {
+			"jsxQuoteStyle": "single",
+			"quoteProperties": "preserve",
+			"trailingCommas": "all",
+			"semicolons": "always",
+			"arrowParentheses": "asNeeded",
+			"bracketSpacing": true,
+			"bracketSameLine": false,
+			"quoteStyle": "single",
+			"attributePosition": "auto"
+		}
+	}
 }
